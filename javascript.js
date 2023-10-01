@@ -5,14 +5,30 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.concat() //"Mango"
 
 
-const arr1 = ["Emil", "Tobias", "Linus"];
+const name1 = ["Emil", "Tobias", "Linus"];
 const myChildren = arr1.concat("Peter"); //["Emil", "Tobias", "Linus", "Peter"]
+
+
+const name2 = ["Emil", "Tobias", "Linus"];
+const name3 = ["Gecko"]
+const newName = ["Tamir", name3];
+name2.concat(newName);   //["Emil", "Tobias", "Linus", "Tamir", "Gecko"]
+
+
+
+
+/* splice */
+
+const fruits1 = ["Banana", "Orange", "Apple", "Mango"];
+fruits1.splice(0, 1, "Lemon", "Kiwi");
+console.log(fruits1); //['Lemon', 'Kiwi', 'Orange', 'Apple', 'Mango']
+
+
+const fruits2 = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(0, 1);
+console.log(fruits2); //['Orange', 'Apple', 'Mango']
 
 
 
 
 /*  */
-
-
-
-
