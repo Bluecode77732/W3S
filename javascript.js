@@ -28,6 +28,11 @@ sliFruits2.slice(2);
 console.log(sliFruits2);   //['Banana', 'Orange', 'Apple', 'Mango']
 
 
+const sliFruits3 = ["Banana", "Orange", "Apple", "Mango"];
+let sliVar1 = sliFruits3.slice(2);    //['Apple', 'Mango']
+console.log(sliFruits3, sliVar1);   //['Banana', 'Orange', 'Apple', 'Mango']
+
+
 
 /* splice */
 
@@ -47,8 +52,8 @@ console.log(splFruits2);    //['Orange', 'Apple', 'Mango']
 
 
 const splFruits4 = ["Banana", "Orange", "Apple", "Mango"];
-let splVar = splFruits4.splice(2);
-console.log(splFruits4, splVar);    //['Banana', 'Orange'], ['Apple', 'Mango']
+let splVar1 = splFruits4.splice(2);
+console.log(splFruits4, splVar1);    //['Banana', 'Orange'], ['Apple', 'Mango']
 
 
 
@@ -68,7 +73,31 @@ There are no built-in functions for finding the highest or lowest value in a Jav
 
 
 
-/*  */
+/* sort */
+
+const sortArr1 = ["str", [true, [false]], [2, [3]], [[undefined], null, [[NaN]]]];
+sortArr1.sort();    //[LOG]: [[[undefined], null, [[NaN]]], [2, [3]], "str", [true, [false]]]
+console.log(sortArr1);  
+
+
+
+
+/* reverse */
+
+const sortArr2 = ["str", true, false, 2, 3, undefined, null, NaN];
+sortArr2.sort();
+sortArr2.reverse();
+console.log(sortArr2);  
+
+
+
+
+
+
+
+
+
+
 
 
 
