@@ -20,8 +20,12 @@ name2.concat(newName);   //["Emil", "Tobias", "Linus", "Tamir", "Gecko"]
 /* slice */
 
 const sliFruits1 = ["Banana", "Orange", "Apple", "Mango"];
-sliFruits1.slice(2);
-console.log(sliFruits1);   //['Banana', 'Orange', 'Apple', 'Mango']
+sliFruits1.slice(2);    //['Apple', 'Mango']
+
+
+const sliFruits2 = ["Banana", "Orange", "Apple", "Mango"];
+sliFruits2.slice(2);
+console.log(sliFruits2);   //['Banana', 'Orange', 'Apple', 'Mango']
 
 
 
@@ -30,6 +34,7 @@ console.log(sliFruits1);   //['Banana', 'Orange', 'Apple', 'Mango']
 const splFruits3 = ["Banana", "Orange", "Apple", "Mango"];
 splFruits3.splice(2);
 console.log(splFruits3);    // ['Banana', 'Orange']
+
 
 const splFruits1 = ["Banana", "Orange", "Apple", "Mango"];
 splFruits1.splice(0, 1, "Lemon", "Kiwi");
