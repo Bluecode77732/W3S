@@ -17,16 +17,33 @@ name2.concat(newName);   //["Emil", "Tobias", "Linus", "Tamir", "Gecko"]
 
 
 
+/* slice */
+
+const sliFruits1 = ["Banana", "Orange", "Apple", "Mango"];
+sliFruits1.slice(2);
+console.log(sliFruits1);   //['Banana', 'Orange', 'Apple', 'Mango']
+
+
+
 /* splice */
 
-const fruits1 = ["Banana", "Orange", "Apple", "Mango"];
-fruits1.splice(0, 1, "Lemon", "Kiwi");
-console.log(fruits1); //['Lemon', 'Kiwi', 'Orange', 'Apple', 'Mango']
+const splFruits3 = ["Banana", "Orange", "Apple", "Mango"];
+splFruits3.splice(2);
+console.log(splFruits3);    // ['Banana', 'Orange']
+
+const splFruits1 = ["Banana", "Orange", "Apple", "Mango"];
+splFruits1.splice(0, 1, "Lemon", "Kiwi");
+console.log(splFruits1);    //['Lemon', 'Kiwi', 'Orange', 'Apple', 'Mango']
 
 
-const fruits2 = ["Banana", "Orange", "Apple", "Mango"];
-fruits.splice(0, 1);
-console.log(fruits2); //['Orange', 'Apple', 'Mango']
+const splFruits2 = ["Banana", "Orange", "Apple", "Mango"];
+splFruits2.splice(0, 3);
+console.log(splFruits2);    //['Orange', 'Apple', 'Mango']
+
+
+const splFruits4 = ["Banana", "Orange", "Apple", "Mango"];
+let splVar = splFruits4.splice(2);
+console.log(splFruits4, splVar);    //['Banana', 'Orange'], ['Apple', 'Mango']
 
 
 
