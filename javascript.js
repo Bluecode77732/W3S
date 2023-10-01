@@ -31,4 +31,26 @@ console.log(fruits2); //['Orange', 'Apple', 'Mango']
 
 
 
+/* flat - Flattening an array is the process of reducing the dimensionality of an array. */
+
+const myArr = ["str", [true, [false]], [2, [3]]];
+const newArr = myArr.flat();
+console.log(newArr);    //['str', true, Array(1), 2, Array(1)]
+
+
+
+
+/* Finding Max and Min Values in an Array
+There are no built-in functions for finding the highest or lowest value in a JavaScript array. */
+
+
+
+
 /*  */
+
+
+
+
+
+
+
