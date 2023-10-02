@@ -119,7 +119,7 @@ console.log(doubledNums2); // Output: [2, 4, 6, 8, 10]
 
 
 function fN(num) {
-  let variable = num.map((num) => {
+  let variable = num.map((num) => { //**I MUST NEED TO DECLARE 'map()' LIKE THIS!!!**
     return Math.pow(num, 2);
   })
   return variable;
