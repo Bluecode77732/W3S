@@ -30,7 +30,7 @@ console.log(sliFruits2);   //['Banana', 'Orange', 'Apple', 'Mango']
 
 const sliFruits3 = ["Banana", "Orange", "Apple", "Mango"];
 let sliVar1 = sliFruits3.slice(2);    //['Apple', 'Mango']
-console.log(sliFruits3, sliVar1);   //['Banana', 'Orange', 'Apple', 'Mango']
+console.log(sliFruits3, sliVar1);   //['Banana', 'Orange', 'Apple', 'Mango'], but 'sliVar1' won't log out it's elements.
 
 
 
@@ -94,10 +94,12 @@ console.log(sortArr2);
 
 /* map */
 
-/* 'map()' method is to create a new array by applying a given function to each element of an existing array. */
+/** 
+ * 'map()' method is to create a new array by applying a given function to each element of an existing array. 
+ * Using map() to create a new array where each element is doubled. 
+*/
 const nums1 = [1, 2, 3, 4, 5];
 
-// Using map() to create a new array where each element is doubled
 const doubledNums1 = nums1.map(function(number) {
   return number * 2;
 });
@@ -105,11 +107,10 @@ const doubledNums1 = nums1.map(function(number) {
 console.log(doubledNums1); // Output: [2, 4, 6, 8, 10]
 
 
-/* brieved the function using arrow */
+/* brevity of the function using arrow */
 
 const nums2 = [1, 2, 3, 4, 5];
 
-// Using map() to create a new array where each element is doubled
 const doubledNums2 = nums2.map((number) => {
   return number * 2;
 });
@@ -119,10 +120,12 @@ console.log(doubledNums2); // Output: [2, 4, 6, 8, 10]
 
 
 
+/*  */
 
 
 
 
+/*  */
 
 
 
