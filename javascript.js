@@ -77,7 +77,7 @@ There are no built-in functions for finding the highest or lowest value in a Jav
 
 const sortArr1 = ["str", [true, [false]], [2, [3]], [[undefined], null, [[NaN]]]];
 sortArr1.sort();    //[LOG]: [[[undefined], null, [[NaN]]], [2, [3]], "str", [true, [false]]]
-console.log(sortArr1);  
+console.log(sortArr1);
 
 
 
@@ -87,7 +87,7 @@ console.log(sortArr1);
 const sortArr2 = ["str", true, false, 2, 3, undefined, null, NaN];
 sortArr2.sort();
 sortArr2.reverse();
-console.log(sortArr2);  
+console.log(sortArr2);
 
 
 
@@ -100,7 +100,7 @@ console.log(sortArr2);
 */
 const nums1 = [1, 2, 3, 4, 5];
 
-const doubledNums1 = nums1.map(function(number) {
+const doubledNums1 = nums1.map(function (number) {
   return number * 2;
 });
 
@@ -117,6 +117,15 @@ const doubledNums2 = nums2.map((number) => {
 
 console.log(doubledNums2); // Output: [2, 4, 6, 8, 10]
 
+
+function fN(num) {
+  let variable = num.map((num) => {
+    return Math.pow(num, 2);
+  })
+  return variable;
+};
+
+fN([1, 2, 3, 4, 5]);  //[1, 4, 9, 16, 25]
 
 
 
