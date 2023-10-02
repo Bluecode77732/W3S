@@ -30,7 +30,7 @@ console.log(sliFruits2);   //['Banana', 'Orange', 'Apple', 'Mango']
 
 const sliFruits3 = ["Banana", "Orange", "Apple", "Mango"];
 let sliVar1 = sliFruits3.slice(2);    //['Apple', 'Mango']
-console.log(sliFruits3, sliVar1);   //['Banana', 'Orange', 'Apple', 'Mango'], but 'sliVar1' won't log out it's elements.
+console.log(sliFruits3, sliVar1);   //['Banana', 'Orange', 'Apple', 'Mango'], but slice method won't log out from its sliced elements.
 
 
 
@@ -120,8 +120,11 @@ console.log(doubledNums2); // Output: [2, 4, 6, 8, 10]
 
 
 
-/*  */
+/* join */
 
+const fruits1 = ["Banana", "Orange", "Apple", "Mango"];
+let text = fruits1.join(" & "); //Banana & Orange & Apple & Mango
+console.log(typeof text);   //string
 
 
 
